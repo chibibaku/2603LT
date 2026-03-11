@@ -105,6 +105,16 @@ git remote add origin https://github.com/[ユーザー名]/[repo名]
 git push origin main
 ```
 
+## GitHub Pages用の設定をする
+- GitHubのリポジトリのSettings > Pagesに行く
+- SourceをGitHub Actionsのビルドで生成されるブランチにする
+- config.mtsのbaseをリポジトリ名にする
+  ```
+  export default defineConfig({
+    base: '/2603_LT/',
+    // ...
+  ```
+
 ## Cloudflare Pages (スライドでは紹介しない部分)
 docs/.vitepress/dist
 
