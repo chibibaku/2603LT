@@ -4,7 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "LT大会用",
   description: "A VitePress Site",
-  base: '/chibibaku/',
+  base: '/2603LT/',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
