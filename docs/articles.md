@@ -2,6 +2,7 @@
 
 - [LT大会用 セットアップガイド](/LT/setup.md)
 - [LT大会用 スライド](/LT/slide.md)
+- [LT大会用 台本](/LT/script.md)
 
 ---
 
