@@ -3,8 +3,8 @@ marp: true
 theme: default
 paginate: false
 header: ''
-footer: ''
-backgroundColor: White
+footer: '2026/03/12'
+backgroundColor: #fffff8
 color: Black
 size: 4:3
 _class: lead
@@ -12,6 +12,7 @@ _class: lead
 
 <!-- タイトルページ -->
 # GitHub Actions+VitePressで<br/>読み返しやすいメモを取る
+サンプルリポジトリ: chibibaku/2603LT
 
 ---
 
@@ -19,11 +20,11 @@ _class: lead
 
 ---
 
-## メモを"読み返す"価値と課題
+## メモの価値と課題
 - メモは書くだけでなく、読み返すことに価値がある
 - AgentやObisidianの台頭で、メモの活用方法が変化
-- Twitter以上, Qiita未満のメモのニーズ
-- Zenn (Zenn Cli)やGistとも違う、個人用のメモの位置づけ
+- Twitter < \[このあたり\] < Qiita ←を狙いたい
+- リポジトリ内のMarkdownファイルをWeb上と共通化して管理したい
 
 ---
 
@@ -40,14 +41,14 @@ _class: lead
 
 ---
 
-## VitePressとは
+## ![VitePressのロゴ](https://raw.githubusercontent.com/vuejs/vitepress/refs/heads/main/art/vitepress-logo-mini.svg) VitePressとは
 ``https://vitepress.dev/``
 - VitePressはMarkdownを高速にHTMLに変換し静的サイトを生成するツール
 - 最近のOSS、VitePressかVuePressでWiki作りがち...
 
 ---
 
-## GitHub Actionsとは
+## ![GitHub Actionsのロゴ](https://github.co.jp/assets/images/features/actions/actions-icon-actions.svg) GitHub Actionsとは
 ``https://github.com/features/actions?locale=ja``
 - GitHubのCI/CDサービス
 - repo内でワークフローを定義
