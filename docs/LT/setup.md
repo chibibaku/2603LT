@@ -5,6 +5,9 @@ date: 2026-03-10
 
 # LT大会用 セットアップガイド 
 
+
+[[toc]]
+
 ## 前提条件
 - git, gh, nodeが入っている
 - GitHubのアカウントがある
@@ -96,7 +99,7 @@ jobs:
 
 ## Gitリポジトリ & GitHubにRepo立ててpushする
 ```
-gh repo create [rpeo名] --private
+gh repo create [rpeo名] --[private/public]
 git init
 git branch -M main
 git add .
@@ -115,7 +118,7 @@ git push origin main
     // ...
   ```
 
-## Cloudflare Pages (スライドでは紹介しない部分)
+<!-- ## Cloudflare Pages (スライドでは紹介しない部分)
 docs/.vitepress/dist
 
 | Configuration option | Value |
@@ -125,4 +128,4 @@ docs/.vitepress/dist
 | Build directory | .vitepress/dist |
 
 
-https://dash.cloudflare.com/?to=/:account/workers-and-pages
+https://dash.cloudflare.com/?to=/:account/workers-and-pages -->
